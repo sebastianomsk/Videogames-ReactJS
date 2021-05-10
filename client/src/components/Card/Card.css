@@ -1,0 +1,72 @@
+.card-videogame {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 4rem;
+    
+    cursor: pointer;
+    background-color: #16202d;
+    border: 1px solid rgba( 139, 185, 224, 0 );
+  }
+  #imagenes-home{
+    height: 4rem;
+  }
+  #imagenes-home>img{
+    width: 8rem;
+    height: 4rem;
+    object-fit: cover;
+  }
+  
+  .card-videogame:hover{
+    border: 1px solid rgba( 139, 185, 224, 0.2 );
+    background: rgba( 0, 0, 0, 0.4 );
+  }
+  
+  .card-videogame > div{
+    margin: 0 20px;
+  }
+  .card-videogame-nombre{
+    width: 300vw;
+    display: grid;
+  }
+  
+  .card-videogame-genero{
+    justify-content: center;
+  }
+  
+  .aboutLink{
+    font-family: 'Open Sans', sans-serif;
+    color: #c6d4df;
+    font-weight: 600;
+    font-size: 1.5vw;
+  }
+
+  .label-genero{
+    font-family: 'Open Sans', sans-serif;
+    color: #2b5066;
+    font-weight: 600;
+    font-size: 0.9vw;
+    margin:0.5rem 0.5rem;
+
+  }
+  .span-genero{
+    font-family: 'Open Sans', sans-serif;
+    color: #2b5066;
+    font-weight: 600;
+    font-size: 0.9vw;
+  }
+
+  .rating-name{
+    color: #c6d4df;
+  }
+.rating-label{
+    color: gray;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+
+.card-videogame:hover .rating-label{
+  color:orange;
+}
